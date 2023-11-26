@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(10, 22, 58);
+}
+
+h1 {
+  text-shadow: -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
+  font-size: 5rem;
+}
+
+/* stile generico del quadratino */
+.square_css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 700;
+  width: calc((100% / 10) - 8px );
+  aspect-ratio: 1;
+  margin: 4px;
+  background-color: yellowgreen;
+  box-shadow: 0 0 0.3rem lightblue;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  word-break: break-all;
+}
+
+/* stile del quadratino fizz */
+.fizz_css {
+  background-color: darkmagenta;
+}
+
+/* stile del quadratino buzz */
+.buzz_css {
+  background-color: red;
+}
+
+/* stile del quadratino fizzbuzz */
+.fizzbuzz_css {
+  background-color: blue;
+}
